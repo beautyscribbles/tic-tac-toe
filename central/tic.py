@@ -23,15 +23,15 @@ board[row][col] = player
       else:
          print("Invalid input. Try again.")
 
-                                                                                                                                            def has_winner():
-                                                                                                                                                  # check rows
-                                                                                                                                                    for row in board:
-                                                                                                                                                            if row[0] == row[1] == row[2] and row[0] != " ":
-                                                                                                                                                                      return True
-                                                                                                                                                                    # check columns
-                                                                                                                                                                      for col in range(3):
-                                                                                                                                                                              if board[0][col] == board[1][col] == board[2][col] and board[0][col] != " ":
-                                                                                                                                                                                        return True
+                                                                     def has_winner():
+# check rows
+for row in board:
+   if row[0] == row[1] == row[2] and row[0] != " ":
+   return True
+# check columns
+for col in range(3):
+    if board[0][col] == board[1][col] == board[2][col] and board[0][col] != " ":
+     return True
                                                                                                                                                                                       # check diagonals
                                                                                                                                                                                         if board[0][0] == board[1][1] == board[2][2] and board[0][0] != " ":
                                                                                                                                                                                                 return True
