@@ -8,20 +8,20 @@ def draw_board():
 
                 def get_move(player):
                       while True:
-                              col = input(f"{player}, enter column: ")
-                                  row = input(f"{player}, enter row: ")
-                                      if col.isdigit() and row.isdigit():
-                                                col, row = int(col), int(row)
-                                                      if 0 <= col < 3 and 0 <= row < 3:
-                                                                  if board[row][col] == " ":
-                                                                                board[row][col] = player
-                                                                                          return
-                                                                                              else:
-                                                                                                            print("That space is already occupied. Try again.")
-                                                                                                                  else:
-                                                                                                                              print("Invalid move. Try again.")
-                                                                                                                                  else:
-                                                                                                                                            print("Invalid input. Try again.")
+col = input(f"{player}, enter column: ")
+row = input(f"{player}, enter row: ")
+     if col.isdigit() and row.isdigit():
+col, row = int(col), int(row)
+     if 0 <= col < 3 and 0 <= row < 3:
+     if board[row][col] == " ":
+board[row][col] = player
+     return
+     else:
+         print("That space is already occupied. Try again.")
+      else:
+         print("Invalid move. Try again.")
+      else:
+         print("Invalid input. Try again.")
 
                                                                                                                                             def has_winner():
                                                                                                                                                   # check rows
@@ -49,7 +49,7 @@ def draw_board():
                                                                                                                                                                                                                                       draw_board()
                                                                                                                                                                                                                                           get_move("O")
                                                                                                                                                                                                                                               if has_winner():
-                                                                                                                                                                                                                                                        print("O wins!")
+                                                                                                                             print("O wins!")
                                                                                                                                                                                                                                break
 main()
                                                                                                                                                                                                                                                    
