@@ -42,19 +42,21 @@ if board[0][0] == board[1][1] == board[2][2] and board[0][0] != " ":
 
 if board[2][0] == board[1][1] == board[0][2] and board[2][0] != " ":
     return True
-                                                                                                                                                                                                    return False
+    return False
 
-                                                                                                                                                                                                def main():
-                                                                                                                                                                                                      while True:
-                                                                                                                                                                                                              draw_board()
-                                                                                                                                                                                                                  get_move("X")
-                                                                                                                                                                                                                      if has_winner():
-                                                                                                                                                                                                                                print("X wins!")
-                                                                                                                                                                                                                                      break
-                                                                                                                                                                                                                                      draw_board()
-                                                                                                                                                                                                                                          get_move("O")
-                                                                                                                                                                                                                                              if has_winner():
-                                                                                                                             print("O wins!")
-                                                                                                                                                                                                                               break
+ 
+def main():
+
+while True:
+draw_board()
+get_move("X")
+   if has_winner():
+      print("X wins!")
+      break
+  
+draw_board()
+get_move("O")
+   if has_winner():
+      print("O wins!")
+      break
 main()
-                                                                                                                                                                                                                                                   
