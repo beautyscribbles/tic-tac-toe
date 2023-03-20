@@ -6,13 +6,17 @@ def draw_board():
      for i, row in enumerate(board):
      print(i, " ".join(row))
      def get_move(player):
-                      while True:
+         while True:
+
 col = input(f"{player}, enter column: ")
+
 row = input(f"{player}, enter row: ")
      if col.isdigit() and row.isdigit():
+
 col, row = int(col), int(row)
      if 0 <= col < 3 and 0 <= row < 3:
      if board[row][col] == " ":
+
 board[row][col] = player
      return
      else:
