@@ -2,11 +2,10 @@
 ard = [[" " for _ in range(3)] for _ in range(3)]
 
 def draw_board():
-      print("  0 1 2")
-        for i, row in enumerate(board):
-                print(i, " ".join(row))
-
-                def get_move(player):
+     print("  0 1 2")
+     for i, row in enumerate(board):
+     print(i, " ".join(row))
+     def get_move(player):
                       while True:
 col = input(f"{player}, enter column: ")
 row = input(f"{player}, enter row: ")
