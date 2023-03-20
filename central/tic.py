@@ -32,11 +32,16 @@ for row in board:
 for col in range(3):
     if board[0][col] == board[1][col] == board[2][col] and board[0][col] != " ":
      return True
-                                                                                                                                                                                      # check diagonals
-                                                                                                                                                                                        if board[0][0] == board[1][1] == board[2][2] and board[0][0] != " ":
-                                                                                                                                                                                                return True
-                                                                                                                                                                                              if board[2][0] == board[1][1] == board[0][2] and board[2][0] != " ":
-                                                                                                                                                                                                      return True
+
+
+# check diagonals
+
+
+if board[0][0] == board[1][1] == board[2][2] and board[0][0] != " ":
+    return True
+
+if board[2][0] == board[1][1] == board[0][2] and board[2][0] != " ":
+    return True
                                                                                                                                                                                                     return False
 
                                                                                                                                                                                                 def main():
