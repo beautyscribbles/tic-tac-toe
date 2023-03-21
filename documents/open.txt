@@ -1,0 +1,34 @@
+What is Tic-Tac-Toe ?
+Tic tac toe, also known as noughts and crosses or Xs and Os, is a simple strategy game for two players. It is played on a 3x3 grid, and each player takes turns placing their symbol (either an X or an O) on an empty space on the grid. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game. If all of the spaces on the grid are filled and no player has won, the game is a draw.
+
+To play the game, the players take turns choosing a space on the grid and marking it with their symbol. The player who goes first typically uses X, while the second player uses O. The game continues until one player gets three of their symbols in a row or all of the spaces on the grid are filled.
+
+The conditions that can occur in a game of tic tac toe are :
+
+Win: If a player gets three of their symbols in a row (horizontally, vertically, or diagonally), they win the game.
+
+Draw: If all of the spaces on the grid are filled and no player has won, the game is a draw.
+
+Unfinished game: If the game is not over and there are still empty spaces on the grid, the game is considered unfinished. Players can continue to take turns until one player wins or the game ends in a draw.
+
+Illegal move: If a player tries to make a move on a space that is already occupied, it is considered an illegal move and the turn passes to the other player.
+
+Stalemate: A stalemate occurs when both players are unable to win, even if they make optimal moves. This can happen if the players are evenly matched and play defensively, blocking each other's attempts to get three in a row.
+
+The Design Elements of a tic tac toe are :
+
+To design a Tic-Tac-Toe game in Python, you will need to consider the following elements:
+
+1) Board: You will need to create a board with a 3x3 grid to represent the Tic-Tac-Toe game. Each cell in the grid can be either empty or occupied by a player's piece (either an "X" or an "O").
+
+2) Players: You will need to implement a way for two players to take turns placing their pieces on the board.
+
+3) Game loop: You will need to create a game loop that continues until the game is won by one of the players or the game ends in a draw.
+
+4) Winning conditions: You will need to implement a way to determine if one of the players has won the game by getting three of their pieces in a row (horizontally, vertically, or diagonally).
+
+5) User input: You will need to allow the players to input the coordinates of the cell where they want to place their piece.
+
+6) Displaying the board: You will need to implement a way to display the current state of the board to the players, so they can see the positions of the pieces.
+
+7) Error handling: You will need to handle cases where the players try to place their pieces in invalid locations or make other invalid moves.i
