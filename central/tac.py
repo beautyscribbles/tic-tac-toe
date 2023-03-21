@@ -3,16 +3,15 @@ import random
 board = [[" " for _ in range(3)] for _ in range(3)]
 
 def draw_board():
-      print("  0 1 2")
-        for i, row in enumerate(board):
-                print(i, " ".join(row))
-
-                def get_human_move():
-                      while True:
-                              col = input("Enter column: ")
-                                  row = input("Enter row: ")
-                                      if col.isdigit() and row.isdigit():
-                                                col, row = int(col), int(row)
+print("  0 1 2")
+for i, row in enumerate(board):
+print(i, " ".join(row))
+def get_human_move():
+while True:
+col = input("Enter column: ")
+row = input("Enter row: ")
+if col.isdigit() and row.isdigit():
+col, row = int(col), int(row)
                                                       if 0 <= col < 3 and 0 <= row < 3:
                                                                   if board[row][col] == " ":
                                                                                 board[row][col] = "X"
@@ -54,9 +53,5 @@ def draw_board():
                                                                                                                                                                                                                                                                   break
                                                                                                                                                                                                                                                                   draw_board()
                                                                                                                                                                                                                                                                       get_computer_move()
-                                                                                                                                                                                                                                                                          if has_winner():
-                                                                                                                                                                                                                                                                                    print("O wins!")
-                                                                                                                                                                                                                                                                                          break
-
-                                                                                                                                                                                                                                                                                      main()
-
+                                                                                                                                                                                                                                                                                                                                                                           print("O wins!")
+main()
