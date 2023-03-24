@@ -15,20 +15,3 @@ Illegal move: If a player tries to make a move on a space that is already occupi
 
 Stalemate: A stalemate occurs when both players are unable to win, even if they make optimal moves. This can happen if the players are evenly matched and play defensively, blocking each other's attempts to get three in a row.
 
-The Design Elements of a tic tac toe are :
-
-To design a Tic-Tac-Toe game in Python, you will need to consider the following elements:
-
-1) Board: You will need to create a board with a 3x3 grid to represent the Tic-Tac-Toe game. Each cell in the grid can be either empty or occupied by a player's piece (either an "X" or an "O").
-
-2) Players: You will need to implement a way for two players to take turns placing their pieces on the board.
-
-3) Game loop: You will need to create a game loop that continues until the game is won by one of the players or the game ends in a draw.
-
-4) Winning conditions: You will need to implement a way to determine if one of the players has won the game by getting three of their pieces in a row (horizontally, vertically, or diagonally).
-
-5) User input: You will need to allow the players to input the coordinates of the cell where they want to place their piece.
-
-6) Displaying the board: You will need to implement a way to display the current state of the board to the players, so they can see the positions of the pieces.
-
-7) Error handling: You will need to handle cases where the players try to place their pieces in invalid locations or make other invalid moves.i
