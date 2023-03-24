@@ -1,6 +1,3 @@
-What is Tic-Tac-Toe ?
-Tic tac toe, also known as noughts and crosses or Xs and Os, is a simple strategy game for two players. It is played on a 3x3 grid, and each player takes turns placing their symbol (either an X or an O) on an empty space on the grid. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game. If all of the spaces on the grid are filled and no player has won, the game is a draw.
-
 To play the game, the players take turns choosing a space on the grid and marking it with their symbol. The player who goes first typically uses X, while the second player uses O. The game continues until one player gets three of their symbols in a row or all of the spaces on the grid are filled.
 
 The conditions that can occur in a game of tic tac toe are :
