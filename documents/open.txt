@@ -1,4 +1,4 @@
-
+--------------------------------------------------------------------
 To play the game, the players take turns choosing a space on the grid and marking it with their symbol. The player who goes first typically uses X, while the second player uses O. The game continues until one player gets three of their symbols in a row or all of the spaces on the grid are filled.
 
 The conditions that can occur in a game of tic tac toe are :
