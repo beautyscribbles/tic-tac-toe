@@ -26,8 +26,8 @@ def get_human_move():
 
 def get_computer_move():
   while True:
-    col = random.randint(0, 2)
-    row = random.randint(0, 2)
+      col = random.randint(0, 2)
+      row = random.randint(0, 2)
     if board[row][col] == " ":
       board[row][col] = "O"
       return
