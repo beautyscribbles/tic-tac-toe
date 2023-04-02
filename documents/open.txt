@@ -1,14 +1,15 @@
+
 To play the game, the players take turns choosing a space on the grid and marking it with their symbol. The player who goes first typically uses X, while the second player uses O. The game continues until one player gets three of their symbols in a row or all of the spaces on the grid are filled.
 
 The conditions that can occur in a game of tic tac toe are :
 
-Win: If a player gets three of their symbols in a row (horizontally, vertically, or diagonally), they win the game.
+*Win: If a player gets three of their symbols in a row (horizontally, vertically, or diagonally), they win the game.
 
-Draw: If all of the spaces on the grid are filled and no player has won, the game is a draw.
+*Draw: If all of the spaces on the grid are filled and no player has won, the game is a draw.
 
-Unfinished game: If the game is not over and there are still empty spaces on the grid, the game is considered unfinished. Players can continue to take turns until one player wins or the game ends in a draw.
+*Unfinished game: If the game is not over and there are still empty spaces on the grid, the game is considered unfinished. Players can continue to take turns until one player wins or the game ends in a draw.
 
-Illegal move: If a player tries to make a move on a space that is already occupied, it is considered an illegal move and the turn passes to the other player.
+*Illegal move: If a player tries to make a move on a space that is already occupied, it is considered an illegal move and the turn passes to the other player.
 
-Stalemate: A stalemate occurs when both players are unable to win, even if they make optimal moves. This can happen if the players are evenly matched and play defensively, blocking each other's attempts to get three in a row.
+*Stalemate: A stalemate occurs when both players are unable to win, even if they make optimal moves. This can happen if the players are evenly matched and play defensively, blocking each other's attempts to get three in a row.
 
