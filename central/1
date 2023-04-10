@@ -28,7 +28,7 @@ board[row][col] = player
 
 
 def has_winner():
-      # check rows
+    # check rows
 
     for row in board:
    if row[0] == row[1] == row[2] and row[0] != " ":
