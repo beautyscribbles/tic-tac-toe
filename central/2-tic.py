@@ -51,7 +51,8 @@ def computer_move():
             board[i] = 'O'
             if check_for_win('O'):
                 return
-            board[i] = ' '
+   board[i] = ' '
+    
     # Check for a blocking move
     for i in range(0, 16):
         if board[i] == ' ':
@@ -60,6 +61,7 @@ def computer_move():
                 board[i] = 'O'
                 return
             board[i] = ' '
+    
     # Make a random move
     while True:
         i = random.randrange(16)
