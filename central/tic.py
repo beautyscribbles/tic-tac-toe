@@ -47,12 +47,12 @@ for row in board:
         return False
 
  
-def main():
+ def main():
+    while True:
 
-while True:
-draw_board()
-get_move("X")
-   if has_winner():
+    draw_board()
+    get_move("X")
+    if has_winner():
       print("X wins!")
       break
 
