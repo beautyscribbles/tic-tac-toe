@@ -24,14 +24,17 @@ def is_board_full():
 
 # Function to check if a player has won
 def check_for_win(player):
+
     # Check rows
     for i in range(0, 13, 4):
         if board[i] == board[i+1] == board[i+2] == board[i+3] == player:
             return True
+    
     # Check columns
     for i in range(4):
         if board[i] == board[i+4] == board[i+8] == board[i+12] == player:
             return True
+    
     # Check diagonals
     if board[0] == board[5] == board[10] == board[15] == player:
         return True
