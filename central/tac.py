@@ -1,9 +1,9 @@
 import random
 
-board = [[" " for _ in range(3)] for _ in range(3)]
+board = [[" " for _ in range(5)] for _ in range(5)]
 
 def tiv_board():
-  print("  0 1 2")
+  print("  0 1 2 3 4 5")
   for i, row in enumerate(board):
     print(i, " ".join(row))
 
