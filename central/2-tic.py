@@ -1,8 +1,9 @@
 import random
-# A 4-by-4 input TICtactoe game
+# A 4-by-4 input tictactoe game
 
 # Initialize the board with empty spaces
 board = [' ' for _ in range(16)]
+
 
 # Function to display the board
 def display_board():
@@ -15,6 +16,7 @@ def display_board():
     print('-'*13)
     print(f'{board[12]} | {board[13]} | {board[14]} | {board[15]}')
     print()
+
 
 # Function to check if the board is full
 def is_board_full():
