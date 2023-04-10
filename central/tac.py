@@ -14,8 +14,9 @@ def move_acc(player):
     if col.isdigit() and row.isdigit():
       col, row = int(col), int(row)
       if 0 <= col < 5  and 0 <= row < 5:
+          #The column and row must be less than or equal to 5
         if board[row][col] == " ":
-          board[row][col] = "X"
+          board[row][col] = player
           return
         else:
           print("That space is already occupied. Try again.")
