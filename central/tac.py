@@ -2,12 +2,12 @@ import random
 
 board = [[" " for _ in range(3)] for _ in range(3)]
 
-def draw_board():
+def tiv_board():
   print("  0 1 2")
   for i, row in enumerate(board):
     print(i, " ".join(row))
 
-def get_human_move():
+def move_acc(player):
   while True:
     col = input("Enter column: ")
     row = input("Enter row: ")
