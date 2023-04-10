@@ -30,13 +30,14 @@ board[row][col] = player
 def has_winner():
       # check rows
 
-    for row in board:
-   if row[0] == row[1] == row[2] and row[0] != " ":
-   return True
-# check columns
-for col in range(3):
-    if board[0][col] == board[1][col] == board[2][col] and board[0][col] != " ":
-     return True
+for row in board:
+    if row[0] == row[1] == row[2] and row[0] != " ":
+        return True
+
+    # check columns
+    for col in range(3):
+        if board[0][col] == board[1][col] == board[2][col] and board[0][col] != " ":
+            return True
 
 
 # check diagonals
