@@ -55,10 +55,11 @@ get_move("X")
    if has_winner():
       print("X wins!")
       break
-  
-draw_board()
-get_move("O")
-   if has_winner():
+
+  draw_board()
+  get_move("O")
+  if has_winner():
       print("O wins!")
       break
-main()
+
+  main()
