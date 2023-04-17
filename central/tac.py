@@ -26,10 +26,12 @@ def move_acc(player):
       print("Invalid input. Try again.")
 
 def get_computer_move():
-  while True:
+
+while True:
       col = random.randint(0, 2)
       row = random.randint(0, 2)
-    if board[row][col] == " ":
+
+if board[row][col] == " ":
       board[row][col] = "O"
       return
 
