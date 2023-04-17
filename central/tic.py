@@ -1,4 +1,4 @@
-#  A 3-by-3 Tictactoe game against a physical player
+#  A 3-by-3 Tic-tac-toe game against a physical player
 
 ard = [[" " for _ in range(3)] for _ in range(3)]
 
