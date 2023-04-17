@@ -56,9 +56,9 @@ def computer_move():
     # Check for a blocking move
     for i in range(0, 16):
         if board[i] == ' ':
-            board[i] = 'X'
-            if check_for_win('X'):
-                board[i] = 'O'
+        board[i] = 'X'
+        if check_for_win('X'):
+        board[i] = 'O'
                 return
             board[i] = ' '
     
