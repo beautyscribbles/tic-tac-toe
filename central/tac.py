@@ -48,12 +48,14 @@ def has_winner():
 
 def main():
   while True:
-    draw_board()
+ 
+ draw_board()
     get_human_move()
     if has_winner():
      print("X wins!")
      break
-    draw_board()
+    
+ draw_board()
     get_computer_move()
     if has_winner():
       print("O wins!")
