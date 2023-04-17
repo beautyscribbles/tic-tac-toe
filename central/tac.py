@@ -51,8 +51,8 @@ def main():
     draw_board()
     get_human_move()
     if has_winner():
-      print("X wins!")
-      break
+     print("X wins!")
+     break
     draw_board()
     get_computer_move()
     if has_winner():
