@@ -9,11 +9,11 @@ board = [' ' for _ in range(16)]
 def display_board():
     print()
     print(f'{board[0]} | {board[1]} | {board[2]} | {board[3]}')
-    print('-'*13)
+    print('-'*10)
     print(f'{board[4]} | {board[5]} | {board[6]} | {board[7]}')
-    print('-'*13)
+    print('-'*11)
     print(f'{board[8]} | {board[9]} | {board[10]} | {board[11]}')
-    print('-'*13)
+    print('-'*12)
     print(f'{board[12]} | {board[13]} | {board[14]} | {board[15]}')
     print()
 
@@ -24,11 +24,13 @@ def is_board_full():
 
 # Function to check if a player has won
 def check_for_win(player):
+    #It confirms the check for win for winners in the game 
 
     # Check rows
     for i in range(0, 13, 4):
         if board[i] == board[i+1] == board[i+2] == board[i+3] == player:
             return True
+    #Checks to ensure that the rows are accurately filled
     
     # Check columns
     for i in range(4):
