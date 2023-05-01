@@ -57,7 +57,7 @@ def main():
      print("X wins!")
      break
     
- draw_board()
+draw_board()
     get_computer_move()
     if has_winner():
       print("O wins!")
