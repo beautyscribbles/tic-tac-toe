@@ -1,1 +1,27 @@
-# tic-tac-toe
+# Tic-Tac-Toe
+<head
+	<h1><p> The game uses tic-tac-toe game mode to allow players to play against the computer or physical opponents </p> </h1>
+</head>
+
+<body>
+	<p>  The overall flow of the game works as such -
+
+	The game begins by initializing an empty 3x3 board, represented as a list of lists.
+	
+	The main function is called, which enters a loop that continues until the game is won or the board is full.
+	
+	Within the loop, the draw_board function is called to print the current state of the board to the console.
+    
+	<p>The get_human_move function is called to allow the human player to enter their move. This function prompts the user to enter a column and row, and then places an "X" at that position on the board if it is a valid move.</p>
+  
+	<p> The has_winner function is called to check if the game has been won by the human player. If the function returns True, the loop is broken and the game ends.</p>
+
+	<p>If the game is not yet won, the draw_board function is called again to update the board with the human player's move.</p>
+
+	<p>The get_computer_move function is called to allow the computer player to make a move. This function generates a random column and row, and then places an "O" at that position on the board if it is a valid move.</p>
+
+	<p>The has_winner function is called again to check if the game has been won by the computer player. If the function returns True, the loop is broken and the game ends.</p>
+
+	<p>If the game is not yet won, the loop continues and the players take turn making moves until the game is won or the board is fun </p>
+ <h3> <p><b> Create a pull request and make amazing contributions to this repo </h3></b></p>
+</body>
